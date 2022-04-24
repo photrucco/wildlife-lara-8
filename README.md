@@ -46,14 +46,15 @@ Make sure something was installed.
 1. composer update(/install)
 	msg => "Publishing complete."
 2. php artisan migrate:fresh --seed
-	msg => "Migration table created successfully."
-	msg => "Database seeding completed successfully."
+	
+    - msg => "Migration table created successfully."
+	- msg => "Database seeding completed successfully."
 3. php artisan serve 
-	msg => eg: "Starting Laravel development server: http://127.0.0.1:8000"
+	- msg => eg: "Starting Laravel development server: http://127.0.0.1:8000"
 4. use account to login wildlife
 	username:"groot"
 	password: "groot@123"
 	role: ELF(god)
 	- see other users(http://127.0.0.1:8000/elf/animals)
-5. 
+
 
